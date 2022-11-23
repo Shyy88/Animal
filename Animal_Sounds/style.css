@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-image: url(zoo1.jpg);
+  background-size: 86rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #3dc57a;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #ee9750;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  /* Baru */
+  overflow: hidden;
+}
+
+/* Baru */
+.btn>img{
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+
+/* #cat {
+  background-image: url(images/cat.png);
+  background-size: 12rem;
+}
+
+#chicken {
+  background-image: url(images/chicken.png);
+}
+
+#elephant {
+  background-image: url(images/elephant.png);
+  background-size: 13rem;
+}
+
+#tiger {
+  background-image: url(images/tiger.png);
+  background-size: 17rem;
+} */
+
+.pressed {
+  box-shadow: 0 0 20px rgb(39, 63, 44);
+  background-color: grey;
+}
