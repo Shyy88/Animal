@@ -1,5 +1,6 @@
 userClickPattern = []
 
+// logic of clicking
 $(".btn").click(function () {
     var userChooseAnimal = $(this).attr("id");
     userClickPattern.push(userChooseAnimal);
